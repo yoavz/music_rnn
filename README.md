@@ -9,6 +9,7 @@ Dependencies
 * Tensorflow (https://github.com/tensorflow/tensorflow)
 * Python Midi (https://github.com/vishnubob/python-midi.git)
 * Mingus (https://github.com/bspaans/python-mingus)
+* Matplotlib (http://matplotlib.org/)
 
 Basic Usage
 ===========
