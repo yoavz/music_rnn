@@ -1,0 +1,6 @@
+matplotlib
+mingus
+numpy
+git+https://github.com/vishnubob/python-midi#egg=midi
+# Linux, Python 2.7, GPU
+https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
