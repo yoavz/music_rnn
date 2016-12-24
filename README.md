@@ -5,16 +5,20 @@ A project that trains a LSTM recurrent neural network over a dataset of MIDI fil
 Dependencies
 ============
 
+* Python 2.7
+* Anaconda
 * Numpy (http://www.numpy.org/)
-* Tensorflow (https://github.com/tensorflow/tensorflow)
+* Tensorflow (https://github.com/tensorflow/tensorflow) - 0.8
 * Python Midi (https://github.com/vishnubob/python-midi.git)
 * Mingus (https://github.com/bspaans/python-mingus)
+* Matplotlib (http://matplotlib.org/)
 
 Basic Usage
 ===========
 
-1. `mkdir data && mkdir models`
-2. Download the dataset [Nottingham MIDI dataset](http://www-etud.iro.umontreal.ca/~boulanni/Nottingham.zip) and unzip to `data/Nottingham`
+1. Run `./install.sh` to create conda env, install dependencies and download data
+2. `source activate music_rnn` to activate the conda environment
 3. Run `python nottingham_util.py` to generate the sequences and chord mapping file to `data/nottingham.pickle`
 4. Run `python rnn.py --run_name YOUR_RUN_NAME_HERE` to start training the model. Use the grid object in `rnn.py` to edit hyperparameter
    configurations.
+5. `source deactivate` to deactivate the conda environment
